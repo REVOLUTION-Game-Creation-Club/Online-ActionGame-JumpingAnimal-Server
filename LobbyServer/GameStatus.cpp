@@ -1,0 +1,27 @@
+// GameStatus.cpp: implementation of the GameStatus class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "GameStatus.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+GameStatus::GameStatus()
+{
+
+}
+
+GameStatus::~GameStatus()
+{
+
+}
+
+bool GameStatus::operator ==(GameStatus* input)
+{
+	if(input == this)
+		return true;
+	else
+		return false;
+}
